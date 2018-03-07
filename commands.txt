@@ -1,0 +1,26 @@
+mkdir lab1
+cd lab1
+git init
+touch l1.txt
+start l1.txt
+git add .
+git commit -m 'Initial message'
+start l1.txt
+git add .
+git commit -m 'modify l1.txt'
+git remote add origin 'https://github.com/KMilevski090/lab1.git'
+git remote -v
+git push origin master
+start l1.txt
+git checkout -- l1.txt
+git checkout -b logging
+touch log.txt
+git log
+start log.txt
+git push origin logging
+git checkout master
+git add .
+git push -u origin logging
+git checkout -b allcommands
+touch commands.txt
+start commands.txt
