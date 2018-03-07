@@ -1,0 +1,13 @@
+$ git log
+commit 1782f1b4c864e18974706b22839d7d1c36bcfd03 (HEAD -> logging, origin/master, master)
+Author: unknown <kristijan.milevski@students.finki.ukim.mk>
+Date:   Wed Mar 7 18:51:57 2018 +0100
+
+    modify l1.txt
+
+commit b708ae0ce7284a6c0f6a83aa6b290e52765597b1
+Author: unknown <kristijan.milevski@students.finki.ukim.mk>
+Date:   Wed Mar 7 18:48:15 2018 +0100
+
+    Initial message
+
